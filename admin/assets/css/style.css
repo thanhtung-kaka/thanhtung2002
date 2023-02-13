@@ -1,0 +1,215 @@
+:root{
+  --main-color: rgb(5, 61, 163);
+  --main-bg-color: rgba(23, 104, 255, 0.629);
+  --text-button:rgb(255, 255, 255);
+  --bg-color: rgb(255, 255, 255);
+  
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+.error{
+  color: red;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+/* manage_news */
+#manage-news .container .list-news{
+  /* width: 1250px;
+  overflow-x:auto; */
+  
+}
+#manage-order .container .list-order .table-order thead,
+#manage-comment .container .list-comment .table-comment thead,
+#manage-news .container .list-news .table-news thead,
+#manage-loainews .container .list-loainews .table-loainews thead{
+  background-color: var(--main-bg-color);
+}
+/* edit_news */
+#edit_news{
+  margin: 20px 0px 30px;
+}
+.txt_img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.page-nav{
+  display: inline-block;
+}
+.error{
+  color: red;
+  font-size: 14px;
+}
+/* css login văn */
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  margin-left: 345px;
+  margin-top: 150px;
+}
+
+.formLogin {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.formLogin .login_form{
+  position: relative !important;
+}
+.formLogin .login_form span{
+  position: absolute !important;
+  right: 15px;
+  top: 85px;
+}
+.formLogin input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.formLogin button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background:  #8195ee;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #f9f4f4;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.formLogin button:hover,
+.formLogin button:active,
+.formLogin button:focus {
+  background: #5f3ef5;
+}
+
+.formLogin .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.formLogin .message a {
+  color: #06f80e;
+  text-decoration: none;
+  text-shadow: 5px 5px 10px #ff6a00;
+}
+.modal-dialog-scrollable  .modal-body::-webkit-scrollbar{
+  display: none !important; 
+}
+
+
+
+.button-42 {
+  margin-top: -7px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 35px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  
+  color: #E62C03;
+  background-image: linear-gradient(-180deg, #ffffff, #ffffff);
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
